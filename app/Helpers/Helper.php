@@ -26,6 +26,7 @@ if (!function_exists('get_crypto_coins')) {
             'XLM' => 'Stellar',
             'BTC' => 'Bitcoin',
             'LTC' => 'LiteCoin',
+            'KLAY' => 'KLAY',
         );
     }
 }

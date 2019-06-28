@@ -522,7 +522,8 @@ class HomeController extends BaseController
             "crypto_coin" => $data->crypto_coin,
         );
 
-        $url = "http://104.248.124.216:3000/api/v1/users/contracts/store";
+        $url = env('STORE_CONTRACT_URL')."/api/v1/users/contracts/store";
+        // dd($url);
         $param_data = json_encode($store_in_api);
         // print_r($param_data); exit;
         $ch = curl_init($url);
