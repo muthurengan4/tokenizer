@@ -1606,6 +1606,7 @@
             $('#fixed_value').val('');
             $('#other_niche').hide('slow');
             $('#other_equity').hide('slow');
+            getCurrency();
         }
         else if(value=='Other Type')
         {
