@@ -22,11 +22,11 @@ if (!function_exists('get_crypto_coins')) {
     function get_crypto_coins()
     {
         return array(
-            // 'ETH' => 'Ethereum(Recommended)',
-            // 'XLM' => 'Stellar',
-            // 'BTC' => 'Bitcoin',
-            // 'LTC' => 'LiteCoin',
-            'KLAY' => 'KLAY',
+            'ETH' => 'Ethereum(Recommended)',
+            'XLM' => 'Stellar',
+            'BTC' => 'Bitcoin',
+            'LTC' => 'LiteCoin'
+            // 'KLAY' => 'KLAY',
         );
     }
 }

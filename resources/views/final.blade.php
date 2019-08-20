@@ -304,7 +304,7 @@
 
                         <div class="form-row">
                             <div class="form-col captcha-otr">
-                                <div class="g-recaptcha" data-sitekey="6LeXCocUAAAAADxx3TR7ITrkTSHsp5msxLRyuA3-"></div>
+                                <div class="g-recaptcha" data-sitekey="{{env('CAPTCHA_SITE_KEY')}}"></div>
                             </div>
                         </div>
 
