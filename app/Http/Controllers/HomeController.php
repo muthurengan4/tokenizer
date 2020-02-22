@@ -513,7 +513,7 @@ class HomeController extends BaseController
         $store_in_api = array(
             "owner_name" => $data->firstname . " " . $data->lastname,
             "owner_email" => $data->email,
-            "symbol" => $data->cname,
+            "symbol" => $data->token_abbreviation,
             "name" => $data->cname,
             "decimals" => $data->decimals,
             "total_supply" => $data->total_supply,
